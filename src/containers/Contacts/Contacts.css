@@ -1,0 +1,22 @@
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.contactItem > h1 {
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.contactItem__img {
+    width: 100px;
+    height: 100px;
+}
+
+.Empty {
+    text-align: center;
+}

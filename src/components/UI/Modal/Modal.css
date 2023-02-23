@@ -1,0 +1,46 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.allInfo {
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.contactInfo > h1 {
+    margin: 0;
+}
+
+.contactInfo > a {
+    text-decoration: none;
+    color: black;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

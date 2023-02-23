@@ -1,0 +1,44 @@
+.submit {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.submit > label {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit > label > input {
+    width: 70%;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.submitDiv {
+    position: relative;
+    width: 40%;
+    margin: auto;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: white;
+}
